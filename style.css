@@ -1,0 +1,331 @@
+body{
+    margin: 0px;
+    overflow: auto;
+    background-color: black;
+}
+
+#line{
+    margin-left: 1400px;
+    background-color: #000000;
+    width: 463px;
+    position: absolute;
+    height: 2400px;
+    animation: colorMove2 10s infinite linear;
+    border-left:2px #ff2d2d solid;
+}
+
+#line2{
+    color: #ff2d2d;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    background-color: #000000;  
+    width: 1382px;
+    position: absolute;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    animation: colorMove 10s infinite linear;
+}
+
+@keyframes colorMove
+{
+    0%{color: #ff2d2d;
+       border-bottom: 2px #ff2d2d solid;}
+    33%{color: #ffd919;
+        border-bottom: 2px #ffd919 solid;}
+    66%{color: #006aff;
+    border-bottom: 2px #006aff solid;}
+    100%{color: #ff2d2d;
+        border-bottom: 2px #ff2d2d solid;}
+}
+@keyframes colorMove2
+{
+    0%{color: #ff2d2d;
+       border-left: 2px #ff2d2d solid;}
+    33%{color: #ffd919;
+        border-left: 2px #ffd919 solid;}
+    66%{color: #006aff;
+        border-left: 2px #006aff solid;}
+    100%{color: #ff2d2d;
+        border-left: 2px #ff2d2d solid;}
+}
+
+#wb{
+    margin-top: 10px;
+    margin-left: 1600px;
+    position: absolute;
+    background-color: #000000;
+    border: 0px #000000 solid;
+    width: 80px;
+    height: 80px;
+    transition: border 0.2s;
+}
+
+#wb:hover{
+    border: 1px #343434 solid;
+}
+
+#upd3{
+    margin-top: 300px;
+    margin-left: 40px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#add3{
+    margin-top: -40px;
+    margin-left: 10px;
+    width: 414px;
+    padding-left: 4px;
+}
+
+.bugs{
+    margin-top: 4px;
+    color: yellow;
+    border-bottom: 1px white solid;
+    width: 405px;
+    margin-left: 15px;
+}
+
+.updates{
+    color: #bfff58;
+    font-family: 'Poppins', sans-serif;
+}
+
+#empty{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 100px;
+    font-size: 34px;
+    letter-spacing: 1px;
+    margin-top: 170px;
+    margin-left: 40px;
+}
+
+#newlevel{
+    margin-top: 280px;
+    margin-left: 500px;
+    width: 500px;
+    height: 300px;
+}
+
+#newlevel2{
+    margin-top: 310px;
+    margin-left: 500px;
+    width: 540px;
+    height: 270px;
+}
+
+#newlevel3{
+    margin-top: 340px;
+    margin-left: 500px;
+    width: 540px;
+    height: 270px;
+}
+
+#newlevel4{
+    position: absolute;
+    margin-top: 940px;
+    margin-left: -550px;
+    width: 540px;
+    height: 270px;
+}
+
+#newlevel5{
+    position: absolute;
+    margin-top: 1500px;
+    margin-left: -550px;
+    width: 540px;
+    height: 270px;
+}
+
+
+
+#upd4{
+    margin-top: 100px;
+    margin-left: 40px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#upd6{
+    margin-top: 700px;
+    margin-left: 40px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#add6{
+    margin-top: -5px;
+    margin-left: 10px;
+    width: 1070px;
+    padding-left: 4px;
+}
+
+#add4{
+    margin-top: -5px;
+    margin-left: 10px;
+    width: 1070px;
+    padding-left: 4px;
+}
+
+#icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #ca2b2b;
+}
+
+.newupd{
+    color: #ff2d2d;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 100px;
+    padding-left: 20px;
+    margin-top: -30px;
+    animation: colorMove 10s infinite linear;
+}
+.newupd2{
+    color: #ff2d2d;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 100px;
+    padding-left: 20px;
+    margin-top: 150px;
+    animation: colorMove 10s infinite linear;
+}
+
+.newupd3{
+    color: #ff2d2d;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 100px;
+    padding-left: 20px;
+    animation: colorMove 10s infinite linear;
+}
+
+.newupd5{
+    color: #ff2d2d;
+    margin-top: 570px;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 100px;
+    padding-left: 20px;
+    animation: colorMove 10s infinite linear;
+}
+
+.newupd4{
+    color: #ff2d2d;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 100px;
+    padding-left: 20px;
+    animation: colorMove 10s infinite linear;
+}
+
+#upd5{
+    margin-top: 130px;
+    margin-left: 40px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 1382px;
+    position: absolute;
+    height: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#bgs{
+    margin-left: 13px;
+}
+
+#apk3{
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    border: 3px #000000 solid;
+    background-color: #ffffff;
+    margin-top: -170px;
+    color: #000000;
+    margin-left: 40px;
+    width: 130px;
+    position: absolute;
+    padding-top: 8px;
+    height: 42px;
+}
+
+#apk4{
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    border: 3px #000000 solid;
+    background-color: #ffffff;
+    margin-top: 420px;
+    color: #000000;
+    margin-left: 70px;
+    width: 130px;
+    position: absolute;
+    padding-top: 8px;
+    height: 42px;
+}
+
+#apk5{
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    border: 3px #000000 solid;
+    background-color: #ffffff;
+    margin-top: 1050px;
+    color: #000000;
+    margin-left: 80px;
+    width: 130px;
+    position: absolute;
+    padding-top: 8px;
+    height: 42px;
+}
+
+#apk6{
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    border: 3px #000000 solid;
+    background-color: #ffffff;
+    margin-top: 1600px;
+    color: #000000;
+    margin-left: 80px;
+    width: 130px;
+    position: absolute;
+    padding-top: 8px;
+    height: 42px;
+}
